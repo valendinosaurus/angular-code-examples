@@ -16,7 +16,7 @@ export class ExampleComponent {
   }
     
   addItem(i: T): void {
-    this.ctrl.add(i);
+    this.ctrl.push(i);
   }
     
   removeItem(i: T): void {
